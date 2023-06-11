@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<body class="bg- text-">
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-1"> Medical Home</h1>
+      <p> <strong> “Let food be thy medicine and medicine be thy food.” </strong>- <em> Hippocrates </em></p>
+     <p> <strong>“Your body hears everything your mind says.”</strong> –<em> Naomi Judd</em></p>
+      <p><a class="btn btn-dark btn-sm" href="{% url 'department' %}" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+</main>
+</body>
+
+{% endblock %}
+
